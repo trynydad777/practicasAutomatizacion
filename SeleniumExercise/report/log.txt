@@ -1,0 +1,24 @@
+============================================
+Fecha: 18-01-2023 08.48.49
+Observacion:  El apartado METODOS DE ENVIO presenta un mensaje de error.
+============================================
+Fecha: 18-01-2023 09.21.22
+Observacion:  El apartado METODOS DE ENVIO presenta un mensaje de error.
+============================================
+Fecha: 18-01-2023 09.24.22
+Salida:  El apartado METODOS DE ENVIO presenta un mensaje de error.
+============================================
+Fecha: 18-01-2023 09.37.03
+Salida:  El apartado METODOS DE ENVIO presenta un mensaje de error.
+============================================
+Fecha: 18-01-2023 10.02.27
+Salida:  El apartado METODOS DE ENVIO presenta un mensaje de error.
+============================================
+Fecha: 18-01-2023 10.06.46
+Salida:  El apartado METODOS DE ENVIO presenta un mensaje de error.
+============================================
+Fecha: 18-01-2023 14.36.54
+Salida:  El apartado METODOS DE ENVIO presenta un mensaje de error.
+============================================
+Fecha: 18-01-2023 17.22.43
+Salida:  El apartado METODOS DE ENVIO presenta un mensaje de error.

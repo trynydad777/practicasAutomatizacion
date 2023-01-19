@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-19T16:12:53 VET" name="DemoSuite" finished-at="2023-01-19T16:13:20 VET" duration-ms="26608">
+    <groups>
+    </groups>
+    <test started-at="2023-01-19T16:12:53 VET" name="FlowBolivia" finished-at="2023-01-19T16:13:20 VET" duration-ms="26608">
+      <class name="Testng.FlowBoliviaTestng">
+        <test-method signature="inciarWebSite()[pri:0, instance:Testng.FlowBoliviaTestng@656d10a4]" started-at="2023-01-19T16:12:53 VET" name="inciarWebSite" finished-at="2023-01-19T16:12:56 VET" duration-ms="2699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inciarWebSite -->
+        <test-method signature="autentication()[pri:0, instance:Testng.FlowBoliviaTestng@656d10a4]" started-at="2023-01-19T16:12:56 VET" name="autentication" finished-at="2023-01-19T16:13:00 VET" duration-ms="3948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autentication -->
+        <test-method signature="seleccionarProducto()[pri:0, instance:Testng.FlowBoliviaTestng@656d10a4]" started-at="2023-01-19T16:13:00 VET" name="seleccionarProducto" finished-at="2023-01-19T16:13:05 VET" duration-ms="5219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleccionarProducto -->
+        <test-method signature="addCarrito()[pri:0, instance:Testng.FlowBoliviaTestng@656d10a4]" started-at="2023-01-19T16:13:05 VET" name="addCarrito" finished-at="2023-01-19T16:13:05 VET" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCarrito -->
+        <test-method signature="buyProduct()[pri:0, instance:Testng.FlowBoliviaTestng@656d10a4]" started-at="2023-01-19T16:13:05 VET" name="buyProduct" finished-at="2023-01-19T16:13:06 VET" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProduct -->
+        <test-method signature="visibleTitleResum()[pri:0, instance:Testng.FlowBoliviaTestng@656d10a4]" started-at="2023-01-19T16:13:06 VET" name="visibleTitleResum" finished-at="2023-01-19T16:13:20 VET" duration-ms="14055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visibleTitleResum -->
+      </class> <!-- Testng.FlowBoliviaTestng -->
+    </test> <!-- FlowBolivia -->
+  </suite> <!-- DemoSuite -->
+</testng-results>
