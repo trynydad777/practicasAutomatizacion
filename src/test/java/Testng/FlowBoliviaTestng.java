@@ -69,7 +69,7 @@ public class FlowBoliviaTestng {
 	}
 	
 	@Test(alwaysRun = true)
-	public void modoEnvio() throws Exception {  // adicionado el 20/1/22
+	public void modoEnvio() throws Exception {  // adicionado el 20/1/22 ggg
 		WebElement modoEnvio = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text(),'Métodos de envío')]"))); 	   		 
 		utilities.moveScroll(modoEnvio, driver);
 		
