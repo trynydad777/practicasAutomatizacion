@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="7" passed="2" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-20T09:39:24 VET" name="Default suite" finished-at="2023-01-20T09:40:31 VET" duration-ms="67071">
+  <suite started-at="2023-01-20T10:28:27 VET" name="Default suite" finished-at="2023-01-20T10:29:32 VET" duration-ms="65312">
     <groups>
     </groups>
-    <test started-at="2023-01-20T09:39:24 VET" name="Default test" finished-at="2023-01-20T09:40:31 VET" duration-ms="67071">
+    <test started-at="2023-01-20T10:28:27 VET" name="Default test" finished-at="2023-01-20T10:29:32 VET" duration-ms="65312">
       <class name="Testng.FlowBoliviaTestng">
-        <test-method signature="addCarrito()[pri:0, instance:Testng.FlowBoliviaTestng@1e6cc850]" started-at="2023-01-20T09:39:24 VET" name="addCarrito" finished-at="2023-01-20T09:39:45 VET" duration-ms="20411" status="FAIL">
+        <test-method signature="addCarrito()[pri:0, instance:Testng.FlowBoliviaTestng@7ec58feb]" started-at="2023-01-20T10:28:27 VET" name="addCarrito" finished-at="2023-01-20T10:28:47 VET" duration-ms="20329" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: #product-addtocart-button >span (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.7.0', revision: '0a5b49d16f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TRINID~1.CHO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57701/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3b791880775be34e23e9e3927a872fbd]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TRINID~1.CHO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60394/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10e97f3b473da3c3e0d3d8832538eae2]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: #product-addtocart-button >span (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.7.0', revision: '0a5b49d16f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TRINID~1.CHO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57701/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3b791880775be34e23e9e3927a872fbd
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TRINID~1.CHO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60394/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10e97f3b473da3c3e0d3d8832538eae2
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
 at Testng.FlowBoliviaTestng.addCarrito(FlowBoliviaTestng.java:56)
@@ -61,7 +61,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCarrito -->
-        <test-method signature="autentication()[pri:0, instance:Testng.FlowBoliviaTestng@1e6cc850]" started-at="2023-01-20T09:39:45 VET" name="autentication" finished-at="2023-01-20T09:39:45 VET" duration-ms="25" status="FAIL">
+        <test-method signature="autentication()[pri:0, instance:Testng.FlowBoliviaTestng@7ec58feb]" started-at="2023-01-20T10:28:47 VET" name="autentication" finished-at="2023-01-20T10:28:47 VET" duration-ms="16" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='header content']//ul[@class='header links']//li[@class='link authorization-link']//a[contains(text(),'Iniciar sesión')]"}
@@ -70,9 +70,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.7.0', revision: '0a5b49d16f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3b791880775be34e23e9e3927a872fbd, findElement {using=xpath, value=//div[@class='header content']//ul[@class='header links']//li[@class='link authorization-link']//a[contains(text(),'Iniciar sesión')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TRINID~1.CHO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57701/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3b791880775be34e23e9e3927a872fbd]]>
+Command: [10e97f3b473da3c3e0d3d8832538eae2, findElement {using=xpath, value=//div[@class='header content']//ul[@class='header links']//li[@class='link authorization-link']//a[contains(text(),'Iniciar sesión')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TRINID~1.CHO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60394/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10e97f3b473da3c3e0d3d8832538eae2]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='header content']//ul[@class='header links']//li[@class='link authorization-link']//a[contains(text(),'Iniciar sesión')]"}
@@ -81,9 +81,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.7.0', revision: '0a5b49d16f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3b791880775be34e23e9e3927a872fbd, findElement {using=xpath, value=//div[@class='header content']//ul[@class='header links']//li[@class='link authorization-link']//a[contains(text(),'Iniciar sesión')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TRINID~1.CHO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57701/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3b791880775be34e23e9e3927a872fbd
+Command: [10e97f3b473da3c3e0d3d8832538eae2, findElement {using=xpath, value=//div[@class='header content']//ul[@class='header links']//li[@class='link authorization-link']//a[contains(text(),'Iniciar sesión')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TRINID~1.CHO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60394/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10e97f3b473da3c3e0d3d8832538eae2
 at jdk.internal.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -134,7 +134,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- autentication -->
-        <test-method signature="buyProduct()[pri:0, instance:Testng.FlowBoliviaTestng@1e6cc850]" started-at="2023-01-20T09:39:45 VET" name="buyProduct" finished-at="2023-01-20T09:39:45 VET" duration-ms="19" status="FAIL">
+        <test-method signature="buyProduct()[pri:0, instance:Testng.FlowBoliviaTestng@7ec58feb]" started-at="2023-01-20T10:28:47 VET" name="buyProduct" finished-at="2023-01-20T10:28:47 VET" duration-ms="14" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#buy-now >span"}
@@ -143,9 +143,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.7.0', revision: '0a5b49d16f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3b791880775be34e23e9e3927a872fbd, findElement {using=css selector, value=#buy-now >span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TRINID~1.CHO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57701/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3b791880775be34e23e9e3927a872fbd]]>
+Command: [10e97f3b473da3c3e0d3d8832538eae2, findElement {using=css selector, value=#buy-now >span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TRINID~1.CHO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60394/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10e97f3b473da3c3e0d3d8832538eae2]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#buy-now >span"}
@@ -154,9 +154,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.7.0', revision: '0a5b49d16f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3b791880775be34e23e9e3927a872fbd, findElement {using=css selector, value=#buy-now >span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TRINID~1.CHO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57701/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3b791880775be34e23e9e3927a872fbd
+Command: [10e97f3b473da3c3e0d3d8832538eae2, findElement {using=css selector, value=#buy-now >span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TRINID~1.CHO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60394/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10e97f3b473da3c3e0d3d8832538eae2
 at jdk.internal.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -207,27 +207,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buyProduct -->
-        <test-method signature="inciarWebSite()[pri:0, instance:Testng.FlowBoliviaTestng@1e6cc850]" started-at="2023-01-20T09:39:45 VET" name="inciarWebSite" finished-at="2023-01-20T09:39:47 VET" duration-ms="2126" status="PASS">
+        <test-method signature="inciarWebSite()[pri:0, instance:Testng.FlowBoliviaTestng@7ec58feb]" started-at="2023-01-20T10:28:47 VET" name="inciarWebSite" finished-at="2023-01-20T10:28:49 VET" duration-ms="1740" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inciarWebSite -->
-        <test-method signature="modoEnvio()[pri:0, instance:Testng.FlowBoliviaTestng@1e6cc850]" started-at="2023-01-20T09:39:47 VET" name="modoEnvio" finished-at="2023-01-20T09:40:07 VET" duration-ms="20133" status="FAIL">
+        <test-method signature="modoEnvio()[pri:0, instance:Testng.FlowBoliviaTestng@7ec58feb]" started-at="2023-01-20T10:28:49 VET" name="modoEnvio" finished-at="2023-01-20T10:29:09 VET" duration-ms="20172" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'Métodos de envío')] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.7.0', revision: '0a5b49d16f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TRINID~1.CHO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57701/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3b791880775be34e23e9e3927a872fbd]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TRINID~1.CHO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60394/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10e97f3b473da3c3e0d3d8832538eae2]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'Métodos de envío')] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.7.0', revision: '0a5b49d16f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TRINID~1.CHO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57701/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3b791880775be34e23e9e3927a872fbd
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TRINID~1.CHO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60394/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10e97f3b473da3c3e0d3d8832538eae2
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
 at Testng.FlowBoliviaTestng.modoEnvio(FlowBoliviaTestng.java:73)
@@ -265,27 +265,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- modoEnvio -->
-        <test-method signature="seleccionarProducto()[pri:0, instance:Testng.FlowBoliviaTestng@1e6cc850]" started-at="2023-01-20T09:40:07 VET" name="seleccionarProducto" finished-at="2023-01-20T09:40:11 VET" duration-ms="3844" status="PASS">
+        <test-method signature="seleccionarProducto()[pri:0, instance:Testng.FlowBoliviaTestng@7ec58feb]" started-at="2023-01-20T10:29:09 VET" name="seleccionarProducto" finished-at="2023-01-20T10:29:12 VET" duration-ms="2497" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- seleccionarProducto -->
-        <test-method signature="visibleTitleResum()[pri:0, instance:Testng.FlowBoliviaTestng@1e6cc850]" started-at="2023-01-20T09:40:11 VET" name="visibleTitleResum" finished-at="2023-01-20T09:40:31 VET" duration-ms="20428" status="FAIL">
+        <test-method signature="visibleTitleResum()[pri:0, instance:Testng.FlowBoliviaTestng@7ec58feb]" started-at="2023-01-20T10:29:12 VET" name="visibleTitleResum" finished-at="2023-01-20T10:29:32 VET" duration-ms="20491" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(@class,'title')] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.7.0', revision: '0a5b49d16f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TRINID~1.CHO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57701/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3b791880775be34e23e9e3927a872fbd]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TRINID~1.CHO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60394/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10e97f3b473da3c3e0d3d8832538eae2]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(@class,'title')] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.7.0', revision: '0a5b49d16f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TRINID~1.CHO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57701/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3b791880775be34e23e9e3927a872fbd
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TRINID~1.CHO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60394/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10e97f3b473da3c3e0d3d8832538eae2
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
 at Testng.FlowBoliviaTestng.visibleTitleResum(FlowBoliviaTestng.java:68)

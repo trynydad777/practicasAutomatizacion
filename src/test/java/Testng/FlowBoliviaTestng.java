@@ -68,8 +68,8 @@ public class FlowBoliviaTestng {
 		WebElement titleResumenPdido = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(@class,'title')]"))); 
 	}
 	
-	@Test
-	public void modoEnvio() throws Exception {
+	@Test(alwaysRun = true)
+	public void modoEnvio() throws Exception {  // adicionado el 20/1/22
 		WebElement modoEnvio = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text(),'Métodos de envío')]"))); 	   		 
 		utilities.moveScroll(modoEnvio, driver);
 		
@@ -78,11 +78,13 @@ public class FlowBoliviaTestng {
         	utilities.screenshot(driver); 
    		    utilities.report("============================================");
         	utilities.report("Fecha: " + utilities.date());
+        	utilities.report("Prueba:  Desde el archivo testng" );
         	utilities.report("Salida:  El apartado METODOS DE ENVIO presenta un mensaje de error.");
         } else {
         	utilities.screenshot(driver); 
         	utilities.report("============================================");
         	utilities.report("Fecha: " + utilities.date());
+        	utilities.report("Prueba:  Desde el archivo testng" );
         	utilities.report("Salida:  El apartado METODOS DE ENVIO no presenta un mensaje de error.");
         }
 	}
